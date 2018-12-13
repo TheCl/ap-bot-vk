@@ -1,0 +1,39 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "VKbot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "vk",
+    "bots",
+    "api",
+    "vkontakte",
+    "bot",
+    "vk",
+    "api"
+  ],
+  "author": "TheCleverest",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.7",
+    "vk-easy": "^1.4.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "@bifot/eslint-config": "^1.0.2",
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "engines": {
+    "node": "10.13.0"
+  }
+}
