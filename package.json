@@ -2,7 +2,7 @@
   "name": "bot",
   "version": "1.0.0",
   "description": "VKbot",
-  "main": "bot.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
