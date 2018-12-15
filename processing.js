@@ -50,7 +50,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
         case "!анекдот":
 
             const getJoke = {
-                api: "http://umorili.herokuapp.com/api/get?site=bash.im&name=bash&num=200",
+                api: "http://umorili.herokuapp.com/api/get?site=bash.im&name=bash&num=100",
         
                 jokeFunction : function(){
                     var ajax = new XMLHttpRequest();   
@@ -59,7 +59,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
                     ajax.onreadystatechange = function(){
                         if (ajax.readyState == 4 && ajax.status == 200){
                             var jsonJoke = JSON.parse(ajax.responseText);
-                            var randomJoke = Math.round(Math.random()*200);
+                            var randomJoke = Math.round(Math.random()*100);
                             var readyJoke = jsonJoke[0].elementPureHtml[randomJoke];
                             var uncodedJoke = readyJoke.replace(/<br \/>/gm, "");
                             api("messages.send", {
