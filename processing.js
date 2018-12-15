@@ -309,7 +309,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
         case "Каппа":
         case "!каппа":
         case "KAPPA":
-        case "Kappa":
+        case "kappa":
         case "каппа":
 
         api("messages.send", {
@@ -317,6 +317,24 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             random_id: randomId,
             peer_id: peer_id,
             attachment:"photo-174937600_456239101" ,
+            access_token: token
+        }).then(console.log);
+            break;
+
+        case "!KappaPride":
+        case "Kappapride":
+        case "Каппапрайд":
+        case "!каппапрайд":
+        case "KAPPAPride":
+        case "KappaPride":
+        case "каппапрайд":
+        case "каппаприде":
+
+        api("messages.send", {
+            user_id: userId,
+            random_id: randomId,
+            peer_id: peer_id,
+            attachment:"photo-174937600_456239102" ,
             access_token: token
         }).then(console.log);
             break;
