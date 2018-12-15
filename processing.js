@@ -86,7 +86,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             break;
 
         case "[club174937600|@club174937600] !погода":
-        case "[club174937600|AP v0.4a] !погода":
+        case "[club174937600|AP v0.5s] !погода":
         case "!forecast":
         case "! Погода":
         case "! погода":
@@ -148,7 +148,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             break;
 
         case "[club174937600|@club174937600] !help":
-        case "[club174937600|AP v0.4a] !help":
+        case "[club174937600|AP v0.5s] !help":
         case "!help" :
         case "!Help" :
         case "! help" :
@@ -164,7 +164,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             break;
 
         case "[club174937600|@club174937600] !sex":
-        case "[club174937600|AP v0.4a] !sex":
+        case "[club174937600|AP v0.5s] !sex":
         case "!sex":
         case "!Sex":
         case "! Sex":
@@ -237,7 +237,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
 
 
         case "[club174937600|@club174937600] !PogChamp":
-        case "[club174937600|AP v0.4a] !PogChamp":
+        case "[club174937600|AP v0.5s] !PogChamp":
         case "PogChamp":
         case "Pog":
         case "POGCHAMP":
@@ -263,7 +263,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             break;
 
         case "[club174937600|@club174937600] !OMEGALUL":
-        case "[club174937600|AP v0.4a] !OMEGALUL":
+        case "[club174937600|AP v0.5s] !OMEGALUL":
         case "OMEGALUL":
         case "OMEGA":
         case "omegalul":
@@ -283,7 +283,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             break;
 
         case "[club174937600|@club174937600] !LUL":
-        case "[club174937600|AP v0.4a] !LUL":
+        case "[club174937600|AP v0.5s] !LUL":
         case "LUL":
         case "ЛУЛ":
         case "lul":
@@ -306,7 +306,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
 
 
         case "[club174937600|@club174937600] !roflanDovolen":
-        case "[club174937600|AP v0.4a] !roflanDovolen":
+        case "[club174937600|AP v0.5s] !roflanDovolen":
         case "roflanDovolen":
         case "рофландоволен":
         case "доволен":
@@ -326,7 +326,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             break;
 
         case "[club174937600|@club174937600] !roflanPominki":
-        case "[club174937600|AP v0.4a] !roflanPominki":
+        case "[club174937600|AP v0.5s] !roflanPominki":
         case "roflanPominki":
         case "рофланпоминки":
         case "поминки":
@@ -343,7 +343,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             break;
 
         case "[club174937600|@club174937600] !roflanPomoika":
-        case "[club174937600|AP v0.4a] !roflanPomoika":
+        case "[club174937600|AP v0.5s] !roflanPomoika":
         case "roflanPomoika":
         case "рофланпомойка":
         case "помойка":
@@ -385,7 +385,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             break;
 
         case "[club174937600|@club174937600] !Руслан":
-        case "[club174937600|AP v0.4a] !Руслан":
+        case "[club174937600|AP v0.5s] !Руслан":
         case "!Руслан":
         case "!руслан":
         case "!ruslan":
@@ -459,7 +459,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
                 break;
 
         case "[club174937600|@club174937600] !joke":
-        case "[club174937600|AP v0.4a] !joke":
+        case "[club174937600|AP v0.5s] !joke":
         case "!joke":
         case "!Joke":
         case "! joke":
@@ -475,7 +475,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             break;
 
         case "[club174937600|@club174937600] !ng":
-        case "[club174937600|AP v0.4a] !ng":
+        case "[club174937600|AP v0.5s] !ng":
         case "!ng":
         case "!Ng":
         case "! ng":
@@ -538,7 +538,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             break;
 
         case "[club174937600|@club174937600] !sticker":
-        case "[club174937600|AP v0.4a] !sticker":
+        case "[club174937600|AP v0.5s] !sticker":
         case "!sticker":
         case "!Sticker":
         case "! sticker":
@@ -555,7 +555,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             break;
 
         case "[club174937600|@club174937600] !weather":
-        case "[club174937600|AP v0.4a] !weather":
+        case "[club174937600|AP v0.5s] !weather":
 
         case "!keyboard":
         case "!Keyboard":
@@ -652,7 +652,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
         break;
 
         case "[club174937600|@club174937600] !выход":
-        case "[club174937600|AP v0.4a] !выход":
+        case "[club174937600|AP v0.5s] !выход":
         case "!выход" :
             const keyboardOff = JSON.stringify(
                 { 
@@ -671,7 +671,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             break;
 
         case "[club174937600|@club174937600] !мышь":
-        case "[club174937600|AP v0.4a] !мышь":
+        case "[club174937600|AP v0.5s] !мышь":
         case "!мышь" :
             api("messages.send", {
                 user_id: userId,
@@ -683,7 +683,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             break;
 
         // case "[club174937600|@club174937600] !mone":
-        // case "[club174937600|AP v0.4a] !mone":
+        // case "[club174937600|AP v0.5s] !mone":
         // case "!mone" :
         //     api("messages.send", {
         //         user_id: userId,
@@ -695,7 +695,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
         //     break;
 
         case "[club174937600|@club174937600] !лотерея":
-        case "[club174937600|AP v0.4a] !лотерея":
+        case "[club174937600|AP v0.5s] !лотерея":
         case "!лотерея" :
         case "!lottery" :
         case "! лотерея" :
@@ -738,7 +738,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             break;
 
         case "[club174937600|@club174937600] !time":
-        case "[club174937600|AP v0.4a] !time":
+        case "[club174937600|AP v0.5s] !time":
         case "!time":
         case "!Time":
         case "! time":
@@ -754,7 +754,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
                 }
             
                 const date = new Date();
-                const h = addZero(date.getHours());
+                const h = addZero(date.getHours() + 3);
                 const m = addZero(date.getMinutes());
                 const s = addZero(date.getSeconds());
                 const timeNow = h + " hours " + m + " minutes " + s + " seconds";
