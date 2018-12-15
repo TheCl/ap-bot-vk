@@ -304,6 +304,23 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
             }).then(console.log);
             break;
 
+        case "!Kappa":
+        case "Kappa":
+        case "Каппа":
+        case "!каппа":
+        case "KAPPA":
+        case "Kappa":
+        case "каппа":
+
+        api("messages.send", {
+            user_id: userId,
+            random_id: randomId,
+            peer_id: peer_id,
+            attachment:"photo-174937600_456239101" ,
+            access_token: token
+        }).then(console.log);
+            break;
+
 
         case "[club174937600|@club174937600] !roflanDovolen":
         case "[club174937600|AP v0.5s] !roflanDovolen":
