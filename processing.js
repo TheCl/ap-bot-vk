@@ -61,7 +61,8 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
                             var jsonJoke = JSON.parse(ajax.responseText);
                             var randomJoke = Math.round(Math.random()*50);
                             var readyJoke = jsonJoke[randomJoke].elementPureHtml;
-                            var uncodedJoke = readyJoke.replace(/<br \/>/gm, "");
+                            var uncodedJoke1 = readyJoke.replace(/&quot/gm, " \" ");
+                            var uncodedJoke = uncodedJoke1.replace(/<br \/>/gm, "");
                             api("messages.send", {
                                 user_id: userId,
                                 random_id: randomId,
