@@ -60,7 +60,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
                         if (ajax.readyState == 4 && ajax.status == 200){
                             var jsonJoke = JSON.parse(ajax.responseText);
                             var randomJoke = Math.round(Math.random()*100);
-                            var readyJoke = jsonJoke[0].elementPureHtml[randomJoke];
+                            var readyJoke = jsonJoke[randomJoke].elementPureHtml;
                             var uncodedJoke = readyJoke.replace(/<br \/>/gm, "");
                             api("messages.send", {
                                 user_id: userId,
@@ -90,6 +90,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
         case "! Погода":
         case "! погода":
         case "!погода":
+        case "! Forecast":
 
             const yandexForecast = {
 
@@ -156,7 +157,7 @@ module.exports = ({user_id: userId, text, payload, peer_id, group_id: group_id, 
                 user_id: userId,
                 random_id: randomId,
                 peer_id: peer_id,
-                message:'Для комфортного взаимодействия используй команду !keyboard, !time - время, !weather - погода, !sex - узнать ориентацию, !joke - анекдот, !ng - сколько осталось до нового года',
+                message:'Для комфортного взаимодействия используй команду !keyboard, !time - время, !weather - погода, !sex - узнать ориентацию, !анекдот - случайный и несмешной анекдот, !ng - сколько осталось до нового года, !flip - орел/решка',
                 access_token: token
             }).then(console.log);
             break;
